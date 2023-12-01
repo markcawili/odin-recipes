@@ -2,17 +2,33 @@
     font-family: Verdana, "Times New Roman", Arial, sans-serif;
 }
 
-h1 {
+body {
+    color: rgb(0,0,0);
+    font-size: 22px;
+    border-radius: 6px;
+    width: 800px;
     text-align: center;
+    background-color: lightblue;
+}
+
+div {
+    background-color: bisque;
+    border: solid 2px black;
+    border-radius: 25px;
 }
 
 .header {
-    background: lightyellow;
-    color: rgb(0,0,0);
-    font-size: 22px;
-    border: 2px solid black;
-    border-radius: 6px;
-    width: 800px;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+}
+
+div .link {
+    margin: 10px;
+    background-color: lightyellow;
+    padding: 10px;
+    border: dotted 1px black;
+    width: 350px;
+    margin-left: 200px;
 }
 
 img {
